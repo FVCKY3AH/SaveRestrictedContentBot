@@ -47,6 +47,8 @@ Buildpacks for manual deploy:
 - `heroku/python`
 - `https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git`
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)</br>
+
 Deploy your bot on `Okteto`
   
 [![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com)
