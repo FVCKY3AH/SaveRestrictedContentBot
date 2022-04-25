@@ -1,0 +1,32 @@
+{
+  "name": "SaveRestrictedContentBot",
+  "description": "Telegram's best Open Source ALL-In-One Multi Purpose RoBot. Create your Fork now.",
+  "keywords": ["telegram", "best", "Media", "cloning", "copying", "robot"],
+  "logo": "https://cdn.dribbble.com/users/1658045/screenshots/4999712/clonelogo-01.png",
+  "website": "https://github.com/vasusen-code/SaveRestrictedContentBot",
+  "repository": "https://github.com/MYS7YLE/SaveRestrictedContentBot.git",
+  "env": {
+        "API_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
+        "API_HASH": {"description": "Get this value from https://my.telegram.org" , "required": true},
+        "BOT_TOKEN": {"description": "Get Bot Token From BotFather Bot","required": true},
+        "SESSION": {"description": "String Session from an admin user. Go to: t.ly/GxsB ","required": true},
+        "AUTH": {"description": "User ids of authorized users separated by space", "required": false},
+        "FORCESUB": {"description": "Without @","value": "startdoingnow"}
+  },
+ "addons": [
+    {
+    "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}
