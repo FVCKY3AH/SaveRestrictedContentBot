@@ -7,7 +7,7 @@
         "telegram",
         "bot"
     ],
-    "repository": "https://github.com/FVCKY3AH/bypassbot",
+    "repository": "https://github.com/vasusen-code/SaveRestrictedContentBot",
     "website": "",
     "success_url": "https://t.me/startdoingnow",
     "env": {
